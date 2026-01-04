@@ -30,48 +30,52 @@ Based on **World Health Organization (WHO)** standards:
 Install Shiny package. An example code: install.packages("shiny")
 
 ## 🖥️ User Interface
+
 **Input Panel (Sidebar)**
--**Height: Enter in centimeters (cm)**
 
-- ** Weight: Enter in kilograms (kg) **
+- **Height:** Enter in centimeters (cm)
 
-- ** Gender: Select Male/Female (optional) **
+- **Weight:** Enter in kilograms (kg)
 
-Output Tabs (Main Panel)
-BMIScore: Displays calculated BMI value
+- **Gender:** Select Male/Female (optional) **
 
-Comments: Shows personalized health recommendations
+**Output Tabs (Main Panel)**
 
-Personal Information: Displays selected gender
+- **BMIScore:** Displays calculated BMI value
 
-ShinyApps.io (Cloud)
-Install rsconnect package
+- **Comments:** Shows personalized health recommendations
 
-Configure account: rsconnect::setAccountInfo()
+- **Personal Information:** Displays selected gender
 
-Deploy: rsconnect::deployApp()
+**ShinyApps.io (Cloud)**
 
-RStudio Connect (Enterprise)
-Publish directly from RStudio IDE
+- Install rsconnect package
 
-Managed deployment with access controls
+- Configure account: rsconnect::setAccountInfo()
+
+- Deploy: rsconnect::deployApp()
+
+**RStudio Connect (Enterprise)**
+- Publish directly from RStudio IDE
+
+- Managed deployment with access controls
 
 ## 📱 Usage Example
 1. Enter Data:
 
-Height: 175 cm
+- Height: 175 cm
 
-Weight: 70 kg
+- Weight: 70 kg
 
-Gender: Male
+- Gender: Male
 
 2. View Results:
 
-BMI Score: 22.86
+- BMI Score: 22.86
 
-Comments: "Congratulations! You have healthy weight."
+- Comments: "Congratulations! You have healthy weight."
 
-Personal Info: "Male"
+- Personal Info: "Male"
 
 ## ⚠️ Health Disclaimer
 Important: This BMI calculator provides general health information based on standard formulas. It is not a substitute for professional medical advice, diagnosis, or treatment. Always consult with a qualified healthcare provider for personalized health assessments.
@@ -79,37 +83,37 @@ Important: This BMI calculator provides general health information based on stan
 ## 🔄 Future Enhancements
 1. Advanced Features:
 
-BMI history tracking
+- BMI history tracking
 
-Age-specific calculations
+- Age-specific calculations
 
-Body fat percentage estimation
+- Body fat percentage estimation
 
-Weight goal planning
+- Weight goal planning
 
 2. UI Improvements:
 
-Interactive BMI chart
+- Interactive BMI chart
 
-Progress visualization
+- Progress visualization
 
-Multi-language support
+- Multi-language support
 
-Dark/light theme toggle
+- Dark/light theme toggle
 
 3. Technical Upgrades:
 
-User authentication
+- User authentication
 
-Data persistence (SQLite/PostgreSQL)
+- Data persistence (SQLite/PostgreSQL)
 
-REST API integration
+- REST API integration
 
-Mobile app version (R + PhoneGap)
+- Mobile app version (R + PhoneGap)
 
 ## 👨‍💻 Author
-Rezaul Karim Tusar
-PhD Candidate in Bioinformatics | MSc Epidemiology
+Rezaul Karim Tusar,
+MSc Epidemiology 
 📧 tusarl928@gmail.com
 🔗 GitHub Profile
 
