@@ -30,12 +30,12 @@ Based on **World Health Organization (WHO)** standards:
 Install Shiny package. An example code: install.packages("shiny")
 
 ## 🖥️ User Interface
-Input Panel (Sidebar)
-Height: Enter in centimeters (cm)
+** Input Panel (Sidebar) **
+- ** Height: Enter in centimeters (cm) **
 
-Weight: Enter in kilograms (kg)
+- ** Weight: Enter in kilograms (kg) **
 
-Gender: Select Male/Female (optional)
+- ** Gender: Select Male/Female (optional) **
 
 Output Tabs (Main Panel)
 BMIScore: Displays calculated BMI value
